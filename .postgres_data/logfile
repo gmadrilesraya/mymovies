@@ -59,3 +59,15 @@
 2026-03-17 21:29:49.151 UTC [20233] LOG:  database system is ready to accept connections
 2026-03-17 21:34:49.170 UTC [20234] LOG:  checkpoint starting: time
 2026-03-17 21:34:49.188 UTC [20234] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.019 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2026-03-17 22:05:23.074 UTC [20233] LOG:  received SIGHUP, reloading configuration files
+2026-03-17 22:05:23.080 UTC [20233] LOG:  received smart shutdown request
+2026-03-17 22:05:23.089 UTC [20233] LOG:  background worker "logical replication launcher" (PID 20239) exited with exit code 1
+2026-03-17 22:05:23.090 UTC [20234] LOG:  shutting down
+2026-03-17 22:05:23.095 UTC [20234] LOG:  checkpoint starting: shutdown immediate
+2026-03-17 22:05:23.138 UTC [20234] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.049 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+2026-03-17 22:05:23.147 UTC [20233] LOG:  database system is shut down
+2026-03-17 22:29:28.766 UTC [1108] LOG:  starting PostgreSQL 15.16 on x86_64-pc-linux-gnu, compiled by clang version 21.1.8, 64-bit
+2026-03-17 22:29:28.769 UTC [1108] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-03-17 22:29:28.776 UTC [1108] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2026-03-17 22:29:28.788 UTC [1111] LOG:  database system was shut down at 2026-03-17 22:05:23 UTC
+2026-03-17 22:29:28.805 UTC [1108] LOG:  database system is ready to accept connections
